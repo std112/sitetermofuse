@@ -69,4 +69,5 @@ async function uploadToImgur(file) {
 
     const data = await response.json();
     return data.success ? data.data.link : '';
+<script src="script.js"></script>
 }
